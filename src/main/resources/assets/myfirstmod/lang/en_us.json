@@ -1,6 +1,7 @@
 {
   "item.myfirstmod.bismuth": "Bismuth",
   "item.myfirstmod.raw_bismuth": "Raw Bismuth",
+  "item.myfirstmod.chisel": "Chisel",
 
   "block.myfirstmod.bismuth_block": "Block of Bismuth",
   "block.myfirstmod.bismuth_ore": "Bismuth Ore",
