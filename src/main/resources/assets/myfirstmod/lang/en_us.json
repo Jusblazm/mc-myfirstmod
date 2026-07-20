@@ -2,6 +2,9 @@
   "item.myfirstmod.bismuth": "Bismuth",
   "item.myfirstmod.raw_bismuth": "Raw Bismuth",
   "item.myfirstmod.chisel": "Chisel",
+  "item.myfirstmod.radish": "Radish",
+  "item.myfirstmod.frostfire_ice": "Frostfire Ice",
+  "item.myfirstmod.starlight_ashes": "Starlight Ashes",
 
   "block.myfirstmod.bismuth_block": "Block of Bismuth",
   "block.myfirstmod.bismuth_ore": "Bismuth Ore",
