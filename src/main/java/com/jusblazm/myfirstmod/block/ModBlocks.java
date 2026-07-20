@@ -1,6 +1,7 @@
 package com.jusblazm.myfirstmod.block;
 
 import com.jusblazm.myfirstmod.MyFirstMod;
+import com.jusblazm.myfirstmod.block.custom.BismuthLampBlock;
 import com.jusblazm.myfirstmod.block.custom.MagicBlock;
 import com.jusblazm.myfirstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -96,7 +97,11 @@ public class ModBlocks {
                             .requiresCorrectToolForDrops()
                             .noOcclusion()));
 
-
+    public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
+            () -> new BismuthLampBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
