@@ -12,5 +12,10 @@
   "block.myfirstmod.magic_block": "Magic Block",
 
   "creativetab.myfirstmod.bismuth_items": "Bismuth Items",
-  "creativetab.myfirstmod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.myfirstmod.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.myfirstmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+  "tooltip.myfirstmod.chisel.shift_down": "This item can chisel Blocks into Bricks",
+  "tooltip.myfirstmod.chisel": "Press §eShift§r for more information",
+  "tooltip.myfirstmod.radish.tooltip": "Tastes really great!"
 }
