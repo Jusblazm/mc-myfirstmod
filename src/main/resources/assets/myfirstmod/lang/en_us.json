@@ -4,6 +4,7 @@
 
   "block.myfirstmod.bismuth_block": "Block of Bismuth",
   "block.myfirstmod.bismuth_ore": "Bismuth Ore",
+  "block.myfirstmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
   "creativetab.myfirstmod.bismuth_items": "Bismuth Items",
   "creativetab.myfirstmod.bismuth_blocks": "Bismuth Blocks"

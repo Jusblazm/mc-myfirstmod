@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "myfirstmod:bismuth"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "myfirstmod:bismuth_block"
+  }
+}

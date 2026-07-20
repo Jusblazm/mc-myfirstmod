@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "myfirstmod:bismuth_block",
+    "myfirstmod:bismuth_ore",
+    "myfirstmod:bismuth_deepslate_ore"
+  ]
+}
