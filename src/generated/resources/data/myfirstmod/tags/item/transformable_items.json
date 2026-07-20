@@ -2,8 +2,8 @@
   "values": [
     "myfirstmod:bismuth",
     "myfirstmod:raw_bismuth",
-    "myfirstmod:coal",
-    "myfirstmod:stick",
-    "myfirstmod:compass"
+    "minecraft:coal",
+    "minecraft:stick",
+    "minecraft:compass"
   ]
 }

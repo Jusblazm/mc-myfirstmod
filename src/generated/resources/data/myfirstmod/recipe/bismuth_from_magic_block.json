@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "myfirstmod:magic_block"
+    }
+  ],
+  "result": {
+    "count": 18,
+    "id": "myfirstmod:bismuth"
+  }
+}
