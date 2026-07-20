@@ -5,6 +5,12 @@
   "item.myfirstmod.radish": "Radish",
   "item.myfirstmod.frostfire_ice": "Frostfire Ice",
   "item.myfirstmod.starlight_ashes": "Starlight Ashes",
+  "item.myfirstmod.bismuth_sword": "Bismuth Sword",
+  "item.myfirstmod.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.myfirstmod.bismuth_shovel": "Bismuth Shovel",
+  "item.myfirstmod.bismuth_axe": "Bismuth Axe",
+  "item.myfirstmod.bismuth_hoe": "Bismuth Hoe",
+
 
   "block.myfirstmod.bismuth_block": "Block of Bismuth",
   "block.myfirstmod.bismuth_ore": "Bismuth Ore",
