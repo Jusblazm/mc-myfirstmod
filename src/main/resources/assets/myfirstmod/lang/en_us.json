@@ -3,5 +3,8 @@
   "item.myfirstmod.raw_bismuth": "Raw Bismuth",
 
   "block.myfirstmod.bismuth_block": "Block of Bismuth",
-  "block.myfirstmod.bismuth_ore": "Bismuth Ore"
+  "block.myfirstmod.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.myfirstmod.bismuth_items": "Bismuth Items",
+  "creativetab.myfirstmod.bismuth_blocks": "Bismuth Blocks"
 }
