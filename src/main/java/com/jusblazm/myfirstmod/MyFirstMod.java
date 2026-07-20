@@ -1,6 +1,7 @@
 package com.jusblazm.myfirstmod;
 
 import com.jusblazm.myfirstmod.block.ModBlocks;
+import com.jusblazm.myfirstmod.component.ModDataComponents;
 import com.jusblazm.myfirstmod.item.ModCreativeModeTabs;
 import com.jusblazm.myfirstmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class MyFirstMod {
     public MyFirstMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
@@ -39,6 +41,8 @@ public class MyFirstMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponents.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
