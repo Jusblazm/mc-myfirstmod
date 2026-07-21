@@ -3,6 +3,7 @@ package com.jusblazm.myfirstmod;
 import com.jusblazm.myfirstmod.block.ModBlocks;
 import com.jusblazm.myfirstmod.component.ModDataComponents;
 import com.jusblazm.myfirstmod.effect.ModEffects;
+import com.jusblazm.myfirstmod.enchantment.ModEnchantmentEffects;
 import com.jusblazm.myfirstmod.item.ModCreativeModeTabs;
 import com.jusblazm.myfirstmod.item.ModItems;
 import com.jusblazm.myfirstmod.potion.ModPotions;
@@ -52,6 +53,8 @@ public class MyFirstMod {
 
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
+
+        ModEnchantmentEffects.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
