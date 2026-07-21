@@ -5,6 +5,7 @@ import com.jusblazm.myfirstmod.component.ModDataComponents;
 import com.jusblazm.myfirstmod.effect.ModEffects;
 import com.jusblazm.myfirstmod.item.ModCreativeModeTabs;
 import com.jusblazm.myfirstmod.item.ModItems;
+import com.jusblazm.myfirstmod.potion.ModPotions;
 import com.jusblazm.myfirstmod.sound.ModSounds;
 import com.jusblazm.myfirstmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -50,6 +51,7 @@ public class MyFirstMod {
         ModSounds.register(modEventBus);
 
         ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
