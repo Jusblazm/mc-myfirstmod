@@ -1,6 +1,7 @@
 package com.jusblazm.myfirstmod.item;
 
 import com.jusblazm.myfirstmod.MyFirstMod;
+import com.jusblazm.myfirstmod.block.custom.ModArmorItem;
 import com.jusblazm.myfirstmod.item.custom.ChiselItem;
 import com.jusblazm.myfirstmod.item.custom.FuelItem;
 import com.jusblazm.myfirstmod.item.custom.HammerItem;
@@ -66,7 +67,7 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH, 7F, -3.5f))));
 
     public static final DeferredItem<ArmorItem> BISMUTH_HELMET = ITEMS.register("bismuth_helmet",
-            () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
 
     public static final DeferredItem<ArmorItem> BISMUTH_CHESTPLATE = ITEMS.register("bismuth_chestplate",
