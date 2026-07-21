@@ -1,0 +1,6 @@
+{
+  "parent": "myfirstmod:item/kaupen_bow",
+  "textures": {
+    "layer0": "myfirstmod:item/kaupen_bow_pulling_0"
+  }
+}
