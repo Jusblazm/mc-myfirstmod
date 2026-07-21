@@ -4,6 +4,7 @@ import com.jusblazm.myfirstmod.MyFirstMod;
 import com.jusblazm.myfirstmod.block.custom.BismuthLampBlock;
 import com.jusblazm.myfirstmod.block.custom.MagicBlock;
 import com.jusblazm.myfirstmod.item.ModItems;
+import com.jusblazm.myfirstmod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -43,7 +44,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
                     .strength(2f)
-                    .requiresCorrectToolForDrops()));
+                    .requiresCorrectToolForDrops()
+                    .sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final DeferredBlock<StairBlock> BISMUTH_STAIRS = registerBlock("bismuth_stairs",
             () -> new StairBlock(ModBlocks.BISMUTH_BLOCK.get().defaultBlockState(),

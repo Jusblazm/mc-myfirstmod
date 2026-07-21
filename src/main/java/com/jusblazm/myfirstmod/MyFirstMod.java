@@ -4,6 +4,7 @@ import com.jusblazm.myfirstmod.block.ModBlocks;
 import com.jusblazm.myfirstmod.component.ModDataComponents;
 import com.jusblazm.myfirstmod.item.ModCreativeModeTabs;
 import com.jusblazm.myfirstmod.item.ModItems;
+import com.jusblazm.myfirstmod.sound.ModSounds;
 import com.jusblazm.myfirstmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -45,6 +46,7 @@ public class MyFirstMod {
         ModBlocks.register(modEventBus);
 
         ModDataComponents.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
