@@ -1,5 +1,6 @@
 package com.jusblazm.myfirstmod;
 
+import com.jusblazm.myfirstmod.util.ModItemProperties;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -27,5 +28,7 @@ public class ExampleModClient {
         // Some client setup code
         MyFirstMod.LOGGER.info("HELLO FROM CLIENT SETUP");
         MyFirstMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
+        ModItemProperties.addCustomItemProperties();
     }
 }
