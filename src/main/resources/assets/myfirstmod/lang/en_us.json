@@ -21,6 +21,7 @@
   "item.myfirstmod.kaupen_bow": "Kaupen Bow",
   "item.myfirstmod.bar_brawl_music_disc.disc": "Bar Brawl Music Disc",
   "item.myfirstmod.bar_brawl_music_disc.disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+  "block.myfirstmod.goji_berries": "Goji Berries",
 
   "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
   "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
@@ -41,6 +42,7 @@
   "block.myfirstmod.bismuth_trapdoor": "Bismuth Trapdoor",
   "block.myfirstmod.bismuth_lamp": "Bismuth Lamp",
   "block.myfirstmod.radish_crop": "Radish Crop",
+  "block.myfirstmod.goji_berry_bush": "Goji Berry Bush",
 
   "creativetab.myfirstmod.bismuth_items": "Bismuth Items",
   "creativetab.myfirstmod.bismuth_blocks": "Bismuth Blocks",

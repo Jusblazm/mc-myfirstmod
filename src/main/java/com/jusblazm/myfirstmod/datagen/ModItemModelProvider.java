@@ -48,12 +48,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RADISH_SEEDS.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
         basicItem(ModItems.STARLIGHT_ASHES.get());
+        basicItem(ModItems.BISMUTH_HORSE_ARMOR.get());
+        basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+        basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+        basicItem(ModItems.GOJI_BERRIES.get());
+
+        basicItem(ModBlocks.BISMUTH_DOOR.asItem());
 
         buttonItem(ModBlocks.BISMUTH_BUTTON, ModBlocks.BISMUTH_BLOCK);
         fenceItem(ModBlocks.BISMUTH_FENCE, ModBlocks.BISMUTH_BLOCK);
         wallItem(ModBlocks.BISMUTH_WALL, ModBlocks.BISMUTH_BLOCK);
-
-        basicItem(ModBlocks.BISMUTH_DOOR.asItem());
 
         handheldItem(ModItems.BISMUTH_SWORD);
         handheldItem(ModItems.BISMUTH_PICKAXE);
@@ -66,10 +70,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.BISMUTH_CHESTPLATE);
         trimmedArmorItem(ModItems.BISMUTH_LEGGINGS);
         trimmedArmorItem(ModItems.BISMUTH_BOOTS);
-
-        basicItem(ModItems.BISMUTH_HORSE_ARMOR.get());
-        basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
-        basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
     }
 
     // Shoutout to El_Redstoniano for making this

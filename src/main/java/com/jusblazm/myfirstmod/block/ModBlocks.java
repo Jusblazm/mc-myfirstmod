@@ -2,6 +2,7 @@ package com.jusblazm.myfirstmod.block;
 
 import com.jusblazm.myfirstmod.MyFirstMod;
 import com.jusblazm.myfirstmod.block.custom.BismuthLampBlock;
+import com.jusblazm.myfirstmod.block.custom.GojiBerryBushBlock;
 import com.jusblazm.myfirstmod.block.custom.MagicBlock;
 import com.jusblazm.myfirstmod.block.custom.RadishCropBlock;
 import com.jusblazm.myfirstmod.item.ModItems;
@@ -108,6 +109,9 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> RADISH_CROP = BLOCKS.register("radish_crop",
             () -> new RadishCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS)));
+
+    public static final DeferredBlock<Block> GOJI_BERRY_BUSH = BLOCKS.register("goji_berry_bush",
+            () -> new GojiBerryBushBlock((BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH))));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
