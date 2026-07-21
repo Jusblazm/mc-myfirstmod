@@ -3,6 +3,7 @@ package com.jusblazm.myfirstmod.block;
 import com.jusblazm.myfirstmod.MyFirstMod;
 import com.jusblazm.myfirstmod.block.custom.BismuthLampBlock;
 import com.jusblazm.myfirstmod.block.custom.MagicBlock;
+import com.jusblazm.myfirstmod.block.custom.RadishCropBlock;
 import com.jusblazm.myfirstmod.item.ModItems;
 import com.jusblazm.myfirstmod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -104,6 +105,9 @@ public class ModBlocks {
                     .strength(2f)
                     .requiresCorrectToolForDrops()
                     .lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final DeferredBlock<Block> RADISH_CROP = BLOCKS.register("radish_crop",
+            () -> new RadishCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -1,6 +1,7 @@
 package com.jusblazm.myfirstmod.item;
 
 import com.jusblazm.myfirstmod.MyFirstMod;
+import com.jusblazm.myfirstmod.block.ModBlocks;
 import com.jusblazm.myfirstmod.block.custom.ModArmorItem;
 import com.jusblazm.myfirstmod.item.custom.ChiselItem;
 import com.jusblazm.myfirstmod.item.custom.FuelItem;
@@ -99,6 +100,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()
                     .jukeboxPlayable(ModSounds.BAR_BRAWL_KEY)
                     .stacksTo(1)));
+
+    public static final DeferredItem<Item> RADISH_SEEDS = ITEMS.register("radish_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.RADISH_CROP.get(), new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
