@@ -45,6 +45,13 @@
 
   "effect.myfirstmod.slimey": "Slimey",
 
+  "painting.myfirstmod.world.title": "World",
+  "painting.myfirstmod.world.author": "NanoAttack",
+  "painting.myfirstmod.shrimp.title": "Shrimp",
+  "painting.myfirstmod.shrimp.author": "NanoAttack",
+  "painting.myfirstmod.saw_them.title": "Saw Them",
+  "painting.myfirstmod.saw_them.author": "NanoAttack",
+
   "tooltip.myfirstmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
   "tooltip.myfirstmod.chisel.shift_down": "This item can chisel Blocks into Bricks",
   "tooltip.myfirstmod.chisel": "Press §eShift§r for more information",
