@@ -16,6 +16,7 @@
   "item.myfirstmod.bismuth_leggings": "Bismuth Leggings",
   "item.myfirstmod.bismuth_boots": "Bismuth Boots",
   "item.myfirstmod.bismuth_horse_armor": "Bismuth Horse Armor",
+  "item.myfirstmod.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
 
   "block.myfirstmod.bismuth_block": "Block of Bismuth",
   "block.myfirstmod.bismuth_ore": "Bismuth Ore",
@@ -38,5 +39,8 @@
   "tooltip.myfirstmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
   "tooltip.myfirstmod.chisel.shift_down": "This item can chisel Blocks into Bricks",
   "tooltip.myfirstmod.chisel": "Press §eShift§r for more information",
-  "tooltip.myfirstmod.radish.tooltip": "Tastes really great!"
+  "tooltip.myfirstmod.radish.tooltip": "Tastes really great!",
+
+  "trim_pattern.myfirstmod.kaupen": "Kaupen Armor Trim",
+  "trim_material.myfirstmod.bismuth": "Bismuth Material"
 }
