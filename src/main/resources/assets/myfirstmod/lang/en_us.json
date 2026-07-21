@@ -39,6 +39,8 @@
   "creativetab.myfirstmod.bismuth_items": "Bismuth Items",
   "creativetab.myfirstmod.bismuth_blocks": "Bismuth Blocks",
 
+  "effect.myfirstmod.slimey": "Slimey",
+
   "tooltip.myfirstmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
   "tooltip.myfirstmod.chisel.shift_down": "This item can chisel Blocks into Bricks",
   "tooltip.myfirstmod.chisel": "Press §eShift§r for more information",

@@ -2,6 +2,7 @@ package com.jusblazm.myfirstmod;
 
 import com.jusblazm.myfirstmod.block.ModBlocks;
 import com.jusblazm.myfirstmod.component.ModDataComponents;
+import com.jusblazm.myfirstmod.effect.ModEffects;
 import com.jusblazm.myfirstmod.item.ModCreativeModeTabs;
 import com.jusblazm.myfirstmod.item.ModItems;
 import com.jusblazm.myfirstmod.sound.ModSounds;
@@ -47,6 +48,8 @@ public class MyFirstMod {
 
         ModDataComponents.register(modEventBus);
         ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
