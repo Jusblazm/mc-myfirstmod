@@ -5,6 +5,7 @@ import com.jusblazm.myfirstmod.block.custom.ModArmorItem;
 import com.jusblazm.myfirstmod.item.custom.ChiselItem;
 import com.jusblazm.myfirstmod.item.custom.FuelItem;
 import com.jusblazm.myfirstmod.item.custom.HammerItem;
+import com.jusblazm.myfirstmod.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
@@ -93,6 +94,11 @@ public class ModItems {
     public static final DeferredItem<Item> KAUPEN_BOW = ITEMS.register("kaupen_bow",
             () -> new BowItem(new Item.Properties()
                     .durability(500)));
+
+    public static final DeferredItem<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new Item(new Item.Properties()
+                    .jukeboxPlayable(ModSounds.BAR_BRAWL_KEY)
+                    .stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

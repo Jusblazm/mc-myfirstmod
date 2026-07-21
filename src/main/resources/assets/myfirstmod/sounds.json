@@ -34,5 +34,13 @@
     "sounds": [
       "myfirstmod:magic_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "myfirstmod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }
